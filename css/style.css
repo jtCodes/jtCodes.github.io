@@ -15,8 +15,6 @@
   padding-left:70px;
   padding-bottom:2px;
 }
-.bg-inverse {
-}
 body {
   overflow-x:hidden; 
   background-color:rgb(239,239,239);
@@ -24,8 +22,14 @@ body {
 .bg-1 {
 }
 .bg-2 {
-  background-color:rgba(0, 0, 0, 0.8);
+  background-color:rgb(0, 0, 0);
 }
+
+.devicon {
+  font-size: 15rem;
+  margin-left:200px;
+}
+
 .soc-con h4{
   font-size:14px;
 }
@@ -94,12 +98,26 @@ hr {
   overflow-y:hidden; 
   margin-bottom: 90px;
 }
+.devicons{
+  overflow-y:hidden; 
+  margin-bottom: 90px;
+  margin-right: 10px;
+}
 .pro h3{
   font-weight:200;
   position: relative;
   left: 15px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+
+.skills h3{
+  font-weight:200;
+  position: relative;
+  left: 150px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  color:white;
 }
 
 .thumbnail:hover .image {
@@ -127,7 +145,6 @@ hr {
 .descrp{
   text-align:center;
   margin-top:0px;
-  background-color:white;
 }
 .tbox {
   transition: .5s ease;
@@ -146,9 +163,6 @@ hr {
   background-repeat: no-repeat;
   background-image: url("https://static.pexels.com/photos/14676/pexels-photo-14676.png");
 }
-.jumbotron {
-  
-}
 .row{
   margin-left:0 !important;
 }
@@ -158,18 +172,30 @@ hr {
 .container {
   overflow: auto;
 }
-#top {
+.jumbotron{
   background-color: rgba(0, 0, 0, 0.7);
-  margin-bottom:0px;
+  width:100%;
+  height:100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 h1 {
   color: white;
   font-family: sans-serif;
-  font-size: 50px;
+  font-size: 100px;
   font-weight: 300;
   margin: 0;
-  padding-top: 60px;
-  padding-bottom: 120px;
+  text-align: center;
+  text-transform: uppercase;
+}
+h2 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  margin-top: 20px;
+  top:50%;
   text-align: center;
   text-transform: uppercase;
 }
