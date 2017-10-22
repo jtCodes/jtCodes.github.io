@@ -10,7 +10,9 @@
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
   <link rel='stylesheet prefetch' href='https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css'>
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-  
+  <link href="https://fonts.googleapis.com/css?family=Molengo" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lekton" rel="stylesheet">
+
   <link rel="stylesheet" href="css/style.css">
 
 
@@ -33,7 +35,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#bg-1">Projects</a>
+              <a class="nav-link" href="#pro">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#hold">Skills</a>
@@ -65,9 +67,10 @@
     <div class="row" id="projs">
       <div class="col-md-4">
         <div class="thumbnail" data-aos="fade-up">
-          <img src="https://s3.amazonaws.com/jt-projs/71E%2BiRloMLL_pixel_quite_black_portrait.png" class="image" alt="Lights" style="width:100%">
+          <img src="https://s3.amazonaws.com/jt-projs/71E%2BiRloMLL_pixel_quite_black_portrait.png" class="image portrait" alt="Lights"
+            style="width:100px">
           <div class="tbox">
-            <a href="https://s3.amazonaws.com/jt-projs/71E%2BiRloMLL_pixel_quite_black_portrait.png">
+            <a href="" onclick="window.open('https://www.amazon.com/jt-Easy-Urls/dp/B0758X8N7Q/ref=sr_1_1?s=mobile-apps&ie=UTF8&qid=1504546759&sr=1-1&keywords=easy+urls')" target='_blank'>
               <div class="text">
                 View
               </div>
@@ -82,9 +85,10 @@
       </div>
       <div class="col-md-4">
         <div class="thumbnail" data-aos="fade-up">
-          <img src="https://s3.amazonaws.com/jt-projs/Screen+Shot+2017-10-22+at+12.27.49+AM.png" class="image" alt="Lights" style="width:100%">
+          <img src="https://s3.amazonaws.com/jt-projs/Screen+Shot+2017-10-22+at+12.27.49+AM.png" class="image portrait" alt="Lights"
+            style="width:100%">
           <div class="tbox">
-            <a href="https://s3.amazonaws.com/jt-projs/Screen+Shot+2017-10-22+at+12.27.49+AM.png">
+            <a href="" onclick="window.open('https://jtcodes.github.io/unbeatable-tictactoe/')" target='_blank'>
               <div class="text">
                 View
               </div>
@@ -98,60 +102,64 @@
         </div>
       </div>
       <div class="col-md-4">
-        <div class="thumbnail" data-aos="fade-up">
-          <img src="https://s3.amazonaws.com/jt-projs/Screen+Shot+2017-10-22+at+12.50.44+AM.png" class="image" alt="Lights" style="width:100%">
-          <div class="tbox">
-            <a href="https://s3.amazonaws.com/jt-projs/Screen+Shot+2017-10-22+at+12.50.44+AM.png">
-              <div class="text">
-                View
-              </div>
-            </a>
+        <a href="https://s3.amazonaws.com/jt-projs/Screen+Shot+2017-10-22+at+12.50.44+AM.png">
+          <div class="thumbnail" data-aos="fade-up">
+            <img src="https://s3.amazonaws.com/jt-projs/Screen+Shot+2017-10-22+at+12.50.44+AM.png" class="image portrait" alt="Lights"
+              style="width:100%">
+            <div class="tbox">
+              <a href="" onclick="window.open('https://unix-date-timestamp.herokuapp.com')" target='_blank'>
+                <div class="text">
+                  View
+                </div>
+              </a>
+            </div>
+            <div class="descrp">
+              <p>
+                <strong>UNIX Timestamp</strong>
+              </p>
+            </div>
           </div>
-          <div class="descrp">
-            <p>
-              <strong>UNIX Timestamp</strong>
-            </p>
-          </div>
-        </div>
       </div>
     </div>
   </div>
 
-  <div class="container-fluid bg-2" id="hold">
-    <div class="row text-center skills">
-      <div class="col-xs-3">
-        <h3 data-aos="fade-right">Skills</h3>
-      </div>
-    </div>
-    <div class="row devicons">
-      <div class="mx-auto col-md-6">
-        <i class="devicon-javascript-plain colored devicon"></i>
-      </div>
-      <div class="mx-auto col-md-6">
-        <i class="devicon-html5-plain colored devicon"></i>
-      </div>
-    </div>
-    <div class="row devicons">
-        <div class="mx-auto col-md-6">
-            <i class="devicon-nodejs-plain-wordmark colored devicon"></i>
-        </div>
-        <div class="mx-auto col-md-6">
-            <i class="devicon-mysql-plain-wordmark colored devicon"></i>
+  <div class="bg-skill bg-2">
+    <div class="container" id="hold">
+      <div class="row text-center skills">
+        <div class="col-xs-3">
+          <h3 data-aos="fade-right">Skills</h3>
         </div>
       </div>
       <div class="row devicons">
-          <div class="mx-auto col-md-6">
-              <i class="devicon-python-plain-wordmark colored devicon"></i>
-          </div>
-          <div class="mx-auto col-md-6">
-              <i class="devicon-java-plain-wordmark colored devicon"></i>
-          </div>
+        <div class="mx-auto col-md-6" align="center" data-aos="fade-up">
+          <i class="devicon-javascript-plain colored devicon"></i>
         </div>
+        <div class="mx-auto col-md-6" align="center" data-aos="fade-up">
+          <i class="devicon-html5-plain colored devicon"></i>
+        </div>
+      </div>
+      <div class="row devicons">
+        <div class="mx-auto col-md-6" align="center" data-aos="fade-up">
+          <i class="devicon-nodejs-plain-wordmark colored devicon"></i>
+        </div>
+        <div class="mx-auto col-md-6" align="center" data-aos="fade-up">
+          <i class="devicon-mysql-plain-wordmark colored devicon"></i>
+        </div>
+      </div>
+      <div class="row devicons">
+        <div class="mx-auto col-md-6" align="center" data-aos="fade-up">
+          <i class="devicon-python-plain-wordmark colored devicon"></i>
+        </div>
+        <div class="mx-auto col-md-6" align="center" data-aos="fade-up">
+          <i class="devicon-java-plain-wordmark colored devicon"></i>
+        </div>
+      </div>
+    </div>
   </div>
 
   <div class="container-fluid bg-grey footer" id="footer">
     <div class="row" id="socialrow">
-      <div class="mx-auto col-sm-3">
+      <div class="mx-auto col-sm-3" align="center">
         <div class="soc-con">
           <div class="icons">
             <a href="">
@@ -168,7 +176,7 @@
       </div>
     </div>
     <div class="row copy">
-      <div class="mx-auto col-sm-4">
+      <div class="mx-auto col-sm-4" align="center">
         <h3>Copyright © 2017 J.Tan</h3>
       </div>
     </div>
